@@ -48,11 +48,11 @@ Progress Button is an android library for handling different types states like a
 
 ```gradle  
 repositories {  
- maven { url 'https://jitpack.io' }  
+ maven { url = uri("https://jitpack.io")} 
 }  
   
 dependencies {  
- implementation 'com.github.hellosagar:ProgressButton:latest_version'
+ implementation ("com.github.hellosagar:ProgressButton:0.35")
 }  
 ```
 
